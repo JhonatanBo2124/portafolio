@@ -1,7 +1,7 @@
 'use client'
 import React, {useState, useEffect} from 'react'
 import { NavBar } from '../NavBar/NavBar'
-import { Menu } from '../Menu/Menu'
+import { Menu } from '../NavBar/Menu'
 
 export function Navigation () {
 

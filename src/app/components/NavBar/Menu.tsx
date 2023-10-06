@@ -32,7 +32,7 @@ export function Menu({toggleOpen}: props) {
                 <ul className="flex flex-col gap-7 items-center">
                     {links.map(({label, route}) => {
                         return(
-                            <li key={route}>
+                            <li className='text-white block font-bold hover:text-sky-400' key={route}>
                                 <Link href={route}>
                                     {label}
                                 </Link>

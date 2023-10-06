@@ -2,7 +2,8 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Navigation } from './components/Navigation/Navigation'
-import { Menu } from './components/Menu/Menu'
+import { Menu } from './components/NavBar/Menu'
+import { Providers } from './components/Provider/Provider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,8 +25,10 @@ export default function RootLayout({
         <script src="https://unpkg.com/scrollreveal"></script>
       </head>
       <body className={inter.className}>
-        <Navigation/>
-        {children}
+        <Providers>
+          <Navigation/>
+          {children}
+        </Providers>
       </body>
     </html>
   )
