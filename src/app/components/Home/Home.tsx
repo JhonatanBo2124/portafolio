@@ -7,7 +7,7 @@ export function Home() {
 
     return (
       <>
-        <div className='h-screen w-screen px-10 flex flex-row items-center justify-center gap-3'>
+        <div className='h-screen w-screen p-10 max-lg:pt-28 flex flex-row max-lg:flex-col items-center gap-3'>
           <RevealWrapper>
             <div className='flex flex-col gap-8'>
               <div className='flex flex-row gap-3'>
@@ -17,7 +17,7 @@ export function Home() {
                   <a href='mailto:jhonatanbolivar14@gmail.com?Subject=Interes%20en%20tu%20perfil&body=Hola%20Jhonatan' className='text-slate-500 hover: decoration-1'>jhonatanbolivar14@gmail.com</a>
                 </div>
               </div>
-              <h1 className="font-['Oswald'] text-9xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-sky-400">FullStack Web Developer</h1>
+              <h1 className="font-['Oswald'] text-9xl max-xl:text-8xl max-md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-sky-400">FullStack Web Developer</h1>
               <div className='flex flex-row gap-7'>
                 <a className='p-1 rounded-lg hover:scale-110 transition-all'
                 href="https://github.com/JhonatanBo2124"
@@ -33,8 +33,8 @@ export function Home() {
             </div>
           </RevealWrapper>
           <RevealWrapper delay={800} origin='right'>
-            <div className='flex flex-col items-center mt-28 gap-7 px-8'>
-              <p className="font-['Poppins'] text-xl text-slate-400 max-w-3xl">¡Bienvenidos a mi portafolio! Soy <span className='font-bold scale-125 text-white'>Jhonatan Bolívar</span>, un apasionado
+            <div className='flex flex-col items-center mt-28 max-lg:mt-16 gap-7 px-8 max-md:px-4'>
+              <p className="font-['Poppins'] text-xl max-md:text-base text-slate-400 max-w-3xl">¡Bienvenidos a mi portafolio! Soy <span className='font-bold scale-125 text-white'>Jhonatan Bolívar</span>, un apasionado
               <span className='font-bold scale-125 text-white'> Desarrollador full stack</span> junior, y estoy emocionado de compartir mi viaje en el mundo de la programación. Aquí encontrarás 
               una muestra de mis proyectos y habilidades, así como mi compromiso constante de aprender y crecer en este apasionante campo. 
               ¡Espero que disfrutes explorando mi trabajo tanto como yo disfruto creándolo!</p>
