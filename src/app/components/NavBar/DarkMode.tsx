@@ -7,8 +7,22 @@ export function DarkModeButton() {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
 
+  const handleChangeTheme = () => {
+      if(theme === 'dark'){
+        setTheme('light')
+        document.querySelector('html')?.classList.remove('dark')
+      } else {
+        setTheme('dark')
+        document.querySelector('html')?.classList.add('dark')
+      }
+  }
+
   useEffect(() => {
     setMounted(true)
+    if(window.matchMedia('prefers-color-sheme: dark').matches) {
+      setTheme('dark')
+    }
+    else setTheme('light')
   }, [])
 
   if (!mounted) {
@@ -16,7 +30,7 @@ export function DarkModeButton() {
   }
 
   return (
-    <button className='p-1 rounded-full hover:bg-slate-400 hover:bg-opacity-30' onClick={e => theme === 'dark' ? setTheme('light') : setTheme('dark')}>
+    <button className='p-1 rounded-full hover:bg-slate-400 hover:bg-opacity-30' onClick={handleChangeTheme}>
         {theme === 'dark' ? <IconMoon /> : <IconSun />}
     </button>
   )

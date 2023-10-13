@@ -1,23 +1,22 @@
 'use client'
-import React, {useState, useEffect} from 'react'
 import { IconBrandGithub, IconBrandLinkedin } from '@tabler/icons-react'
 import { RevealWrapper } from 'next-reveal'
+import { useTheme } from 'next-themes'
 
 export function Home() {
-
     return (
       <>
-        <div className='h-screen w-screen p-10 max-lg:pt-28 flex flex-row max-lg:flex-col items-center gap-3'>
+        <div className='h-screen w-screen max-lg:pt-28 flex flex-row max-lg:flex-col items-center gap-2'>
           <RevealWrapper>
-            <div className='flex flex-col gap-8'>
+            <div className='flex flex-col p-20 max-lg:p-10 gap-8 max-lg:mx-16 max-md:mx-6 max-sm:mx-2'>
               <div className='flex flex-row gap-3'>
                 <img className='h-10 rounded-full' src="https://i.ibb.co/cct4y5x/Imagen-de-Whats-App-2023-07-20-a-las-14-47-04.jpg" alt="logo" />
                 <div>
-                  <p>Jhonatan Bolivar</p>
-                  <a href='mailto:jhonatanbolivar14@gmail.com?Subject=Interes%20en%20tu%20perfil&body=Hola%20Jhonatan' className='text-slate-500 hover: decoration-1'>jhonatanbolivar14@gmail.com</a>
+                  <p className='font-bold'>Jhonatan Bolivar</p>
+                  <a href='mailto:jhonatanbolivar14@gmail.com?Subject=Interes%20en%20tu%20perfil&body=Hola%20Jhonatan,' className='text-slate-500 hover: decoration-1'>jhonatanbolivar14@gmail.com</a>
                 </div>
               </div>
-              <h1 className="font-['Oswald'] text-9xl max-xl:text-8xl max-md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-sky-400">FullStack Web Developer</h1>
+              <h1 className="font-['Oswald'] text-9xl max-xl:text-8xl max-md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-sky-400 drop-shadow-xl">FullStack Web Developer</h1>
               <div className='flex flex-row gap-7'>
                 <a className='p-1 rounded-lg hover:scale-110 transition-all'
                 href="https://github.com/JhonatanBo2124"
@@ -33,14 +32,14 @@ export function Home() {
             </div>
           </RevealWrapper>
           <RevealWrapper delay={800} origin='right'>
-            <div className='flex flex-col items-center mt-28 max-lg:mt-16 gap-7 px-8 max-md:px-4'>
-              <p className="font-['Poppins'] text-xl max-md:text-base text-slate-400 max-w-3xl">¡Bienvenidos a mi portafolio! Soy <span className='font-bold scale-125'>Jhonatan Bolívar</span>, un apasionado
-              <span className='font-bold scale-125'> Desarrollador full stack</span> junior, y estoy emocionado de compartir mi viaje en el mundo de la programación. Aquí encontrarás 
+            <div className='flex flex-col items-center mt-28 max-lg:mt-16 gap-7 px-8 max-md:px-0'>
+              <p className="font-['Poppins'] p-5 text-xl max-md:text-base text-slate-700 dark:text-slate-400 max-w-3xl">¡Bienvenidos a mi portafolio! Soy <span className='font-bold scale-125 text-black dark:text-white'>Jhonatan Bolívar</span>, un apasionado
+              <span className='font-bold scale-125 text-blue-700 dark:text-white'> Desarrollador full stack</span> junior, y estoy emocionado de compartir mi viaje en el mundo de la programación. Aquí encontrarás 
               una muestra de mis proyectos y habilidades, así como mi compromiso constante de aprender y crecer en este apasionante campo. 
               ¡Espero que disfrutes explorando mi trabajo tanto como yo disfruto creándolo!</p>
               <div className='flex gap-5'>
                 {/* <a className="p-2.5 font-bold border-2 rounded-lg shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f] hover:bg-white hover:text-black hover:scale-105 transition-all" href="#">Certificados</a> */}
-                <a className="p-2.5 font-bold border-2 rounded-lg shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f] hover:bg-white hover:text-black hover:scale-105 transition-all" href="./jhonatan.pdf" download="CV_Jhonatan_Bolivar">Descargar cv</a>
+                <a className="p-3.5 text-white bg-blue-700 hover:bg-blue-900 dark:bg-transparent font-bold dark:border-2 rounded-full dark:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f] dark:hover:bg-white dark:hover:text-black transition-all" href="./jhonatan bolivar cv.pdf" download="CV_Jhonatan_Bolivar">Descargar cv</a>
               </div>
             </div>
           </RevealWrapper>
