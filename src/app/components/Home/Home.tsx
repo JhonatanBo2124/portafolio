@@ -1,16 +1,15 @@
 'use client'
 import { IconBrandGithub, IconBrandLinkedin } from '@tabler/icons-react'
 import { RevealWrapper } from 'next-reveal'
-import { useTheme } from 'next-themes'
 
 export function Home() {
     return (
       <>
-        <div className='h-screen w-screen max-lg:pt-28 flex flex-row max-lg:flex-col items-center gap-2'>
+        <div className='lg:h-screen w-screen max-lg:pt-28 flex flex-row max-lg:flex-col items-center gap-2'>
           <RevealWrapper>
             <div className='flex flex-col p-20 max-lg:p-10 gap-8 max-lg:mx-16 max-md:mx-6 max-sm:mx-2'>
               <div className='flex flex-row gap-3'>
-                <img className='h-10 rounded-full' src="https://i.ibb.co/cct4y5x/Imagen-de-Whats-App-2023-07-20-a-las-14-47-04.jpg" alt="logo" />
+                <img className='h-10 rounded-full' src="https://res.cloudinary.com/da3li8fso/image/upload/v1697205041/vxeykeb4gohziwtxmwye.jpg" alt="logo" />
                 <div>
                   <p className='font-bold'>Jhonatan Bolivar</p>
                   <a href='mailto:jhonatanbolivar14@gmail.com?Subject=Interes%20en%20tu%20perfil&body=Hola%20Jhonatan,' className='text-slate-500 hover: decoration-1'>jhonatanbolivar14@gmail.com</a>
@@ -32,7 +31,7 @@ export function Home() {
             </div>
           </RevealWrapper>
           <RevealWrapper delay={800} origin='right'>
-            <div className='flex flex-col items-center mt-28 max-lg:mt-16 gap-7 px-8 max-md:px-0'>
+            <div className='flex flex-col items-center gap-7 px-8 max-md:px-0'>
               <p className="font-['Poppins'] p-5 text-xl max-md:text-base text-slate-700 dark:text-slate-400 max-w-3xl">¡Bienvenidos a mi portafolio! Soy <span className='font-bold scale-125 text-black dark:text-white'>Jhonatan Bolívar</span>, un apasionado
               <span className='font-bold scale-125 text-blue-700 dark:text-white'> Desarrollador full stack</span> junior, y estoy emocionado de compartir mi viaje en el mundo de la programación. Aquí encontrarás 
               una muestra de mis proyectos y habilidades, así como mi compromiso constante de aprender y crecer en este apasionante campo. 
