@@ -1,9 +1,8 @@
 
 export function Contact() {
     return(
-        <>
-        <h1 className="h-screen w-screen flex flex-col justify-center items-center font-['Oswald'] text-9xl">This is Contact</h1>
-        <p> que pasa </p>
-        </>
+        <div className="w-screen h-14 flex items-end justify-center bg-gradient-to-r from-cyan-800 to-blue-800">
+        <p className="text-slate-400">© 2023 - Jhonatan Bolivar</p>
+        </div>
     )
 }

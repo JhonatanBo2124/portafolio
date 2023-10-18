@@ -11,14 +11,14 @@ export default function Page() {
       <section id='home'>
         <Home/>
       </section>
-      <section id='about'>
+      {/* <section id='about'>
         <About/>
+      </section> */}
+      <section id='proyects'>
+        <Proyects/>
       </section>
       <section id='studies'>
         <Studies/>
-      </section>
-      <section id='proyects'>
-        <Proyects/>
       </section>
       <section id='contact'>
         <Contact/>

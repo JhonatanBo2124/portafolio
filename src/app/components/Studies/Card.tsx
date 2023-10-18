@@ -8,7 +8,7 @@ interface props{
 }
 export function Card({name, title, year, profile, image, certificate}: props) {
     return(
-        <div className="flex flex-col gap-6 max-w-md p-10">
+        <div className="flex flex-col gap-6 max-w-md p-5">
             <div className="flex flex-row items-center gap-3">
                 <img className="w-20 rounded-full" src={image} />
                 <h1 className="font-['Oswald'] uppercase font-bold text-4xl">{name}</h1>

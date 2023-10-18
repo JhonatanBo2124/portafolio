@@ -8,12 +8,12 @@ export const links = [
       route: '#about'
     },
     {
-      label: 'Estudios',
-      route: '#studies'
-    },
-    {
       label: 'Proyectos',
       route: '#proyects'
+    },
+    {
+      label: 'Estudios',
+      route: '#studies'
     },
     {
       label: 'Contacto',
