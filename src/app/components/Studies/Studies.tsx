@@ -9,7 +9,7 @@ export function Studies() {
             <div className="w-full justify-start px-20 max-md:px-10">
                 <h1 className="font-['Oswald'] text-6xl">Estudios</h1>
             </div>
-            <div className='flex flex-row justify-center gap-28 max-md:gap-10 flex-wrap'>
+            <div className='flex flex-row justify-center gap-28 max-md:gap-10 flex-wrap mb-20'>
                 {studies.map(study => {
                     return(
                         <RevealWrapper>

@@ -23,7 +23,7 @@ export const links = [
 
 export const studies = [
     {
-        name: 'henry',
+        name: 'Henry',
         title: 'Full Stack Web Developer',
         year: '2023',
         profile: 'El egresado aprendera a integrar las especialidades mas demandas en el mercado tecnologico. Utilizara herramientas como Express, React, Node.js, Javascript, SQL, entre otras, que le permitiran crear interfaces de aplicaciones web, servidores y bases de datos.',
@@ -31,7 +31,7 @@ export const studies = [
         certificate: 'https://certificates.soyhenry.com/new-cert?id=ff028721422d1a173119fdd13c98325886e0535661d1502cfdcf5d313155e105'
     },
     {
-        name: 'univalle',
+        name: 'Univalle',
         title: 'Tecnología en Desarrollo de Software',
         year: 'actualidad',
         profile: 'el Tecnólogo en Desarrollo de Software de la Universidad del Valle es un profesional que puede desempeñarse, en los siguientes ámbitos: Desarrollo de software, Diseño y desarrollo de interacciones entre el humano y el computador, y Gestión de infraestructura de TIC.',
