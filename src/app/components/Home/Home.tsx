@@ -33,7 +33,7 @@ export function Home() {
           <RevealWrapper delay={800} origin='right'>
             <div className='flex flex-col items-center gap-7 px-8 max-md:px-0'>
               <p className="font-['Poppins'] p-5 text-xl max-md:text-base text-slate-700 dark:text-slate-400 max-w-3xl">¡Bienvenidos a mi portafolio! Soy <span className='font-bold scale-125 text-black dark:text-white'>Jhonatan Bolívar</span>, un apasionado
-              <span className='font-bold scale-125 text-blue-700 dark:text-white'> Desarrollador full stack</span> junior, y estoy emocionado de compartir mi viaje en el mundo de la programación. Aquí encontrarás 
+              <span className='font-bold scale-125 text-blue-700 dark:text-white'> Desarrollador full stack</span>, y estoy emocionado de compartir mi viaje en el mundo de la programación. Aquí encontrarás 
               una muestra de mis proyectos y habilidades, así como mi compromiso constante de aprender y crecer en este apasionante campo. 
               ¡Espero que disfrutes explorando mi trabajo tanto como yo disfruto creándolo!</p>
               <div className='flex gap-5'>
