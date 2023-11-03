@@ -7,7 +7,7 @@ import { Contact } from './components/Contact/Contact'
 
 export default function Page() {
   return (
-    <main>
+    <main className='w-screen dark:bg-[#1B1925]'>
       <section id='home'>
         <Home/>
       </section>
