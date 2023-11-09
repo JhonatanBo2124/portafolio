@@ -37,6 +37,13 @@ export const studies = [
         year: 'actualidad',
         profile: 'el Tecnólogo en Desarrollo de Software de la Universidad del Valle es un profesional que puede desempeñarse, en los siguientes ámbitos: Desarrollo de software, Diseño y desarrollo de interacciones entre el humano y el computador, y Gestión de infraestructura de TIC.',
         image: 'https://res.cloudinary.com/da3li8fso/image/upload/v1697476225/clrahtyzwcwzekzvtmez.png'
+    },
+    {
+        name: 'Skool',
+        title: 'Inglés A1 -> B2',
+        year: 'actualidad',
+        profile: 'Al concluir los estudios, podré aplicar de manera efectiva mis habilidades lingüísticas en diversos contextos profesionales. Mi sólida comprensión del idioma me permitirá comunicarme con confianza y claridad en entornos internacionales, facilitando la colaboración con equipos multiculturales.',
+        image: 'https://res.cloudinary.com/da3li8fso/image/upload/v1699559923/uikhlitdipehtjep54j3.png'
     }
 ]
 export const proyects = [

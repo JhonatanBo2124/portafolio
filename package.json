@@ -27,6 +27,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@types/scrollreveal": "^0.0.9"
+    "@types/scrollreveal": "^0.0.9",
+    "tailwind-clip-path": "^1.0.0"
   }
 }
