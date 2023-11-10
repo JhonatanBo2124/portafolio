@@ -1,6 +1,6 @@
 'use client'
 import { RevealWrapper } from 'next-reveal'
-import { IconArrowBigRightLine, IconExternalLink } from '@tabler/icons-react'
+import { IconExternalLink } from '@tabler/icons-react'
 interface props {
     name: string,
     description: string,
@@ -14,7 +14,7 @@ export function CardProyect({ name, description, technologies, link, images }:pr
         <div className="flex max-lg:flex-col max-lg:items-center p-10 gap-40 max-xl:gap-20">
             <RevealWrapper origin='left'>
                 <div className="flex flex-col gap-8">
-                    <p className="font-['Oswald'] font-bold text-4xl">{name}</p>
+                    <h1 className="font-['Oswald'] font-bold text-4xl">{name}</h1>
                     <p className="font-['Poppins'] text-lg max-lg:text-base max-w-md max-lg:max-w-2xl max-sm:max-w-xs dark:text-slate-400">{description}</p>
                     <p className="font-['Poppins'] max-w-xs">Tecnologias: <span className='font-black'>{technologies}</span></p>
                     <div className='flex gap-5'>

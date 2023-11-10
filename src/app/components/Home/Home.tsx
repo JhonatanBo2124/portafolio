@@ -20,17 +20,19 @@ export function Home() {
               <h1 className="min-w-[10ch] max-xl:min-w-[9ch] font-['Oswald'] text-9xl max-xl:text-8xl max-md:text-6xl drop-shadow-xl">
                 {
                   title.map((word) => {
+                    let delay = 100;
                     return(
                       <div className=''>
                         {
                           word.split('').map((letter) => {
+                            delay+=100;
                             if (letter === ' ') {
                               return(
                                 <span> </span>
                               )
                             } else {
                               return(
-                                <span className='inline-block hover:text-cyan-700 hover:-translate-y-4 transition-transform'>{letter}</span>
+                                <span className={`inline-block hover:text-cyan-700 hover:-translate-y-4 transition-transform ${letter === 'S' ? 'animate-bounce text-cyan-700' : ''}`}>{letter}</span>
                               )
                             }
                           })
@@ -61,7 +63,6 @@ export function Home() {
               una muestra de mis proyectos y habilidades, así como mi compromiso constante de aprender y crecer en este apasionante campo. 
               ¡Espero que disfrutes explorando mi trabajo tanto como yo disfruto creándolo!</p>
               <div className='flex flex-col items-center gap-5'>
-                {/* <a className="p-2.5 font-bold border-2 rounded-lg shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#08f,0_0_15px_#08f,0_0_30px_#08f] hover:bg-white hover:text-black hover:scale-105 transition-all" href="#">Certificados</a> */}
                 <svg className="animate-bounce w-6 h-6 text-gray-900 dark:text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                   <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                 </svg>

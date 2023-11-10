@@ -26,13 +26,13 @@ const config: Config = {
         },
         rebound: {
           '0%': { transform: 'translateY(0px)' },
-          '50%': { transform: 'translateY(-8px)'},
-          '100%': { transform: 'translateY(0px)'},
-        }
+          '100%': { transform: 'translateY(-16px)'},
+        },
+
       },
       animation: {
         appear: 'appear 1 2s 5s forwards',
-        rebound: 'rebound alternate 2 .5s'
+        rebound: 'rebound alternate 2 .5s infinite'
       }
     },
     fontFamily: {
