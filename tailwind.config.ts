@@ -28,11 +28,16 @@ const config: Config = {
           '0%': { transform: 'translateY(0px)' },
           '100%': { transform: 'translateY(-16px)'},
         },
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
 
       },
       animation: {
         appear: 'appear 1 2s 5s forwards',
-        rebound: 'rebound alternate 2 .5s infinite'
+        rebound: 'rebound alternate 2 .5s infinite',
+        'loop-scroll': 'loop-scroll 50s linear infinite',
       }
     },
     fontFamily: {

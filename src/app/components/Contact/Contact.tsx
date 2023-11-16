@@ -3,7 +3,7 @@ import { IconBrandGithub, IconBrandLinkedin, IconBrandInstagram, IconBrandThread
 export function Contact() {
     return(
         <div className="w-screen pt-10 flex flex-col gap-8 items-center justify-end bg-gradient-to-r from-slate-800 to-black">
-            <h1 className="w-4/5 text-6xl max-sm:text-4xl font-['Oswald'] text-white px-20 max-md:px-5">!Escríbeme!</h1>
+            <h1 className="w-4/5 text-6xl max-sm:text-4xl font-['Oswald'] text-white px-20 max-md:px-5">¡Escríbeme!</h1>
             <div className='w-1/2 flex max-lg:flex-col items-center justify-between'>
                 <div className='flex flex-col gap-6'>
                     <p className="font-['Poppins'] text-lg text-slate-400 max-w-sm max-xl:max-w-xs">Full stack developer apacionado por crear soluciones digitales y experiencias</p>
