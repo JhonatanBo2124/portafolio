@@ -2,38 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
-  scroll-behavior: smooth;
-} */
-/* @layer base {
-  html {
-    @apply scroll-smooth;
-  }
-} */
-/* html {
-  --scroll-behavior: smooth!important;
-  scroll-behavior: smooth!important;
-  } */
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.timeline-scroll {
+  animation-timeline: scroll(root block);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 27, 27, 29;
-    --background-end-rgb: 27, 27, 29;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */

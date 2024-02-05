@@ -32,12 +32,17 @@ const config: Config = {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
         },
+        'progress-grow': {
+          from: {width: '0%'},
+          to: { width: '100%'}
+        }
 
       },
       animation: {
         appear: 'appear 1 2s 5s forwards',
         rebound: 'rebound alternate 2 .5s infinite',
         'loop-scroll': 'loop-scroll 50s linear infinite',
+        'progress-grow': 'progress-grow auto linear' 
       }
     },
     fontFamily: {

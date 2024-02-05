@@ -66,7 +66,7 @@ export function Home() {
                 <svg className="animate-bounce w-6 h-6 text-gray-900 dark:text-white" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                   <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                 </svg>
-                <a className="p-3.5 text-white bg-cyan-700 hover:bg-cyan-900 dark:bg-transparent active:animate-rebound font-bold dark:border-2 rounded-full dark:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#0E7490,0_0_15px_#0E7490,0_0_30px_#0E7490] dark:hover:bg-white dark:hover:text-black transition-all" href="./jhonatan bolivar cv.pdf" download="CV_Jhonatan_Bolivar">Descargar cv</a>
+                <a className="p-3.5 text-white bg-cyan-700 hover:bg-cyan-900 dark:bg-transparent active:animate-rebound font-bold dark:border-2 rounded-full dark:shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#0E7490,0_0_15px_#0E7490,0_0_30px_#0E7490] dark:hover:bg-white dark:hover:text-black transition-all" href="./Jhonatan Bolivar hoja de vida.pdf" download="CV_Jhonatan_Bolivar">Descargar cv</a>
               </div>
             </div>
           </RevealWrapper>
