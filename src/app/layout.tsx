@@ -21,7 +21,6 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="./logo2.svg" />
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet"></link>
-        <script src="https://unpkg.com/scrollreveal"></script>
       </head>
       <body className={inter.className}>
         <Providers>

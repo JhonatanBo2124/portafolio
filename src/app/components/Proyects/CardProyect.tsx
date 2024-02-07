@@ -22,15 +22,13 @@ export function CardProyect({ name, description, technologies, link, images }:pr
                     </div>
                 </div>
             </RevealWrapper>
-            <RevealWrapper origin='right'>
                 <div className="flex gap-6 max-md:gap-3">
-                    <div className="w-80 max-xl:w-60 max-md:w-40 h-96 max-xl:h-72 max-md:h-48 hover:scale-105 transition-all"><img className="w-80 max-md:w-40 h-96 max-md:h-48 object-cover border-2 rounded-2xl" src={images[0]} alt="" /></div>
+                    <div className="w-80 max-xl:w-60 max-md:w-40 h-96 max-xl:h-72 max-md:h-48 hover:scale-105 transition-all animate-reveal timeline-reveal"><img className="w-80 max-md:w-40 h-96 max-md:h-48 object-cover border-2 rounded-2xl" src={images[0]} alt="" /></div>
                     <div className="w-80 max-xl:w-60 max-md:w-40 h-96 max-xl:h-72 max-md:h-48 flex flex-col gap-6 max-md:gap-3">
-                        <div className="hover:scale-105 transition-all"><img className="object-contain border-2 rounded-2xl" src={images[1]} alt="" /></div>
-                        <div className="hover:scale-105 transition-all"><img className="object-contain border-2 rounded-2xl" src={images[2]} alt="" /></div>
+                        <div className="hover:scale-105 transition-all"><img className="object-contain border-2 rounded-2xl animate-reveal timeline-reveal" src={images[1]} alt="" /></div>
+                        <div className="hover:scale-105 transition-all"><img className="object-contain border-2 rounded-2xl animate-reveal timeline-reveal" src={images[2]} alt="" /></div>
                     </div>
                 </div>
-            </RevealWrapper>
         </div>
     )
 }

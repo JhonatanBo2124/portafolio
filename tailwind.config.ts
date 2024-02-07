@@ -35,6 +35,10 @@ const config: Config = {
         'progress-grow': {
           from: {width: '0%'},
           to: { width: '100%'}
+        },
+        reveal: {
+          from: {opacity: '0'},
+          to: {opacity: '1'}
         }
 
       },
@@ -42,7 +46,8 @@ const config: Config = {
         appear: 'appear 1 2s 5s forwards',
         rebound: 'rebound alternate 2 .5s infinite',
         'loop-scroll': 'loop-scroll 50s linear infinite',
-        'progress-grow': 'progress-grow auto linear' 
+        'progress-grow': 'progress-grow auto linear',
+        reveal: 'reveal linear both',
       }
     },
     fontFamily: {

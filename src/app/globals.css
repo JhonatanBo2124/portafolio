@@ -5,3 +5,8 @@
 .timeline-scroll {
   animation-timeline: scroll(root block);
 }
+
+.timeline-reveal {
+  animation-timeline: view();
+  animation-range: entry 20% cover 30%;
+}
