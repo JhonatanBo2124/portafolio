@@ -14,7 +14,6 @@ export function Contact() {
                     <a href='https://github.com/JhonatanBo2124' target='_blank' className='flex gap-2 font-bold text-white hover:text-blue-600'><IconBrandGithub color='white'/>GitHub</a>                
                     <a href='https://www.linkedin.com/in/jhonatan-bol%C3%ADvar-b49869230/' target='_blank' className='flex gap-2 font-bold text-white hover:text-blue-600'><IconBrandLinkedin color='white'/>LinkedIn</a>
                     <a href='https://www.instagram.com/jhonatan212.4/' target='_blank' className='flex gap-2 font-bold text-white hover:text-blue-600'><IconBrandInstagram color='white'/>Instagram</a>
-                    <a href='https://www.threads.net/@jhonatan212.4' target='_blank' className='flex gap-2 font-bold text-white hover:text-blue-600'><IconBrandThreads color='white'/>Threads</a>
                 </div>
             </div>
             <div className='w-4/5 max-md:w-full flex items-center justify-between p-5 border-t-2 border-slate-400'>

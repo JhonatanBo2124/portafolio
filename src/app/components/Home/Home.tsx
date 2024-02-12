@@ -1,13 +1,18 @@
 'use client'
 import { IconBrandGithub, IconBrandLinkedin } from '@tabler/icons-react'
 import { RevealWrapper } from 'next-reveal'
+import { Navigation } from '../Navigation/Navigation'
+import { Providers } from '../Provider/Provider'
 
 export function Home() {
 
   const title = 'FullStack Web Developer'.split(' ')
     return (
       <>
-        <div className='lg:h-screen w-screen max-lg:pt-28 flex flex-row max-lg:flex-col items-center gap-2'>
+        <Providers>
+          <Navigation/>
+        </Providers>
+        <div className='max-lg:pt-28 flex flex-row max-lg:flex-col items-center'>
           <RevealWrapper>
             <div className='flex flex-col p-20 max-lg:p-10 gap-8 max-lg:mx-16 max-md:mx-6 max-sm:mx-2'>
               <div className='flex flex-row gap-3'>

@@ -1,8 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Navigation } from './components/Navigation/Navigation'
-import { Providers } from './components/Provider/Provider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,10 +21,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@300&display=swap" rel="stylesheet"></link>
       </head>
       <body className={inter.className}>
-        <Providers>
-          <Navigation/>
           {children}
-        </Providers>
       </body>
     </html>
   )

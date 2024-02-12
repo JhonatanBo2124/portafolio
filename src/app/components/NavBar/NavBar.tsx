@@ -14,7 +14,7 @@ export function NavBar ({toggleOpen}: props) {
     let { theme } = useTheme()
 
     return(
-        <header className="h-scren w-screen p-3 fixed z-50">
+        <header className="h-scren w-screen py-2 sticky top-0 z-50">
             <div className="mx-8 max-md:mx-3 py-2 px-4 bg-white bg-opacity-0 backdrop-blur-lg rounded-lg flex items-center justify-between">
                 <div>
                     <a className='flex items-center gap-3' href="/">
